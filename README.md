@@ -65,6 +65,7 @@ If you prefer to explore manually or recreate this project on your own.
      - DuckDB:
        ```pip install duckdb --upgrade```
   4. DuckDB:
+     
      My group member imported the dataset from Kaggle as a single DuckDB database     
      (amazon_reviews.duckdb). DuckDB can be used to retrieve subsets of data using SQL
      commands in the language of our choice. If Python is the language of choice then        the link to the documentation is [here](https://duckdb.org/docs/api/python/overview).
