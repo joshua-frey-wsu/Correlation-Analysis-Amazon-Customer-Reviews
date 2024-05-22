@@ -22,8 +22,9 @@ This project was a group project assigned in my Data Mining class at my universi
 
 ### Quick Startup
   - Clone the repository:
-    ```git clone https://github.com/joshua-frey-wsu/Correlation-Analysis-Amazon-  
-       Customer-Reviews.git
+    ```
+    git clone https://github.com/joshua-frey-wsu/Correlation-Analysis-Amazon-  
+    Customer-Reviews.git
     ```
   - Navigate to the root directory of the project.
   - Change into the amazon_reviews directory.
@@ -40,8 +41,9 @@ If you prefer to explore manually or recreate this project on your own.
 
 2. Create Virtual Environment:
     - Using Terminal:
-      ```python3 -m venv venv
-         source venv/bin/activate
+      ```
+      python3 -m venv venv
+      source venv/bin/activate
       ```
     - Using VSCode:
       [Link on How](https://code.visualstudio.com/docs/python/environments)
@@ -52,8 +54,9 @@ If you prefer to explore manually or recreate this project on your own.
      - NumPy:
        ```pip install numpy```
      - matplotlib:
-       ```python -m pip install -U pip
-          python -m pip install -U matplotlib
+       ```
+       python -m pip install -U pip
+       python -m pip install -U matplotlib
        ```
      - seaborn:
        ```pip install seaborn```
