@@ -1,0 +1,4 @@
+AVG Vine Star_Rating,AVG Non-Vine Star Rating: ,Pearson Corr,Kendall Corr,Spearmen Corr,Biserial Corr,P-value
+4.2,3.84,0.11853397637783436,-0.006332475868613035,-0.006856487224404962,0.1185339763778345,0.4976539337379964
+Product ID,Avg Vine SR,Avg NonVine SR
+B00EP0SIOG,4.2,3.84
