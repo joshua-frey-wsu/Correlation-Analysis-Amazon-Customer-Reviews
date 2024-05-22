@@ -6,7 +6,7 @@
 I performed correlation analysis on whether vine reviews had an impact on the star rating of a product from a [Kaggle Amazon Customer Review Dataset](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset). Amazon vine is an invitation-only program that selects the most insightful reviewers to allow them to order items free of charge and share their product experiences with Amazon customers. I wanted to determine if there was a bias in vine reviews due to getting items for free by looking at the star rating given. 
 
 ### Motivation
-This project was a group project assigned in my Data Mining class at my university. My teammates and I divided the project by each doing different data mining tasks on the Amazon Customer Review Dataset. I chose to do correlation analysis becauese while my group members and I were going through the dataset we discovered the attribute known as [_vine_](https://www.amazon.com/vine/about). We decided to look into what vine was and we realized that we could maybe find some interesting correlation between whether a review was written by a vine member were given higher ratings in their reviews of a product than non-vine members. 
+This project was a group project assigned in my Data Mining class at my university. My teammates and I divided the project by each doing different data mining tasks on the Amazon Customer Review Dataset. I chose to do correlation analysis becauese while my group members and I were going through the dataset we discovered the attribute known as [_vine_](https://www.amazon.com/vine/about). We decided to look into what vine was and we realized that we could maybe find some interesting correlation between whether a review written by a vine member were given higher ratings in their reviews of a product than non-vine members. 
 
 ## Installation 
 
@@ -40,7 +40,7 @@ If you prefer to explore manually or recreate this project on your own.
 1. Install pip (Windows):
    Terminal:
    ```python get-pip.py```
-   [Link on how for different Operating Systems of installation methods]      (https://pip.pypa.io/en/stable/installation/)
+   [Link on how for different Operating Systems or installation methods]      (https://pip.pypa.io/en/stable/installation/)
 
 2. Create Virtual Environment:
     - Using Terminal:
