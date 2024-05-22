@@ -21,43 +21,46 @@ This project was a group project assigned in my Data Mining class at my universi
 - Make sure to add Python as a PATH variable. [Link on how?](https://realpython.com/add-python-to-path/)
 
 ### Quick Startup
-  - Clone the repository
+  - Clone the repository:
+    ```git clone https://github.com/joshua-frey-wsu/Correlation-Analysis-Amazon-  
+       Customer-Reviews.git
+    ```
   - Navigate to the root directory of the project.
   - Change into the amazon_reviews directory.
   - Type to following command to run the code:
-    '''python3 correlation.py'''
+    ```python3 correlation.py```
     
 ### Manual Startup/Manual Recreation
 If you prefer to explore manually or recreate this project on your own.
 
 1. Install pip (Windows):
    Terminal:
-   '''python get-pip.py'''
+   ```python get-pip.py```
    [Link on how for different Operating Systems of installation methods]      (https://pip.pypa.io/en/stable/installation/)
 
 2. Create Virtual Environment:
     - Using Terminal:
-      '''python3 -m venv venv
+      ```python3 -m venv venv
          source venv/bin/activate
-      '''
+      ```
     - Using VSCode:
       [Link on How](https://code.visualstudio.com/docs/python/environments)
       
 3. Install Python Libraries in Virtual Environment:
      - Pandas:
-       '''pip install pandas'''
+       ```pip install pandas```
      - NumPy:
-       '''pip install numpy'''
+       ```pip install numpy```
      - matplotlib:
-       '''python -m pip install -U pip
+       ```python -m pip install -U pip
           python -m pip install -U matplotlib
-       '''
+       ```
      - seaborn:
-       '''pip install seaborn'''
+       ```pip install seaborn```
      - SciPy:
-       '''python -m pip install scipy'''
+       ```python -m pip install scipy```
      - DuckDB:
-       '''pip install duckdb --upgrade'''
+       ```pip install duckdb --upgrade```
   4. DuckDB
      My group member imported the dataset from Kaggle as a single DuckDB database     
      (amazon_reviews.duckdb). DuckDB can be used to retrieve subsets of data using SQL
