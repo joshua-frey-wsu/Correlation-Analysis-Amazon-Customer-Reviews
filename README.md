@@ -28,6 +28,7 @@ This project was a group project assigned in my Data Mining class at my universi
     ```
   - Navigate to the root directory of the project.
   - Change into the amazon_reviews directory.
+  - Extract the amazon_reviews.7z using 7zip to get the duckdb file.
   - Type to following command to run the code:
     ```python3 correlation.py```
     
@@ -66,9 +67,7 @@ If you prefer to explore manually or recreate this project on your own.
        ```pip install duckdb --upgrade```
   4. DuckDB:
      
-     My group member imported the dataset from Kaggle as a single DuckDB database     
-     (amazon_reviews.duckdb). DuckDB can be used to retrieve subsets of data using SQL
-     commands in the language of our choice. If Python is the language of choice then        the link to the documentation is [here](https://duckdb.org/docs/api/python/overview).
+     My group member imported the dataset from Kaggle as a single DuckDB database which      I uploaded as a 7zip file since the duckdb file is very big (~26GB). DuckDB can be      used to retrieve subsets of data using SQL commands in the language of our choice.      If Python is the language of choice then the link to the documentation is [here]  (https://duckdb.org/docs/api/python/overview).
      If you want to use a different programming language or just want to know more then      the link is [here](https://duckdb.org/docs/). 
 
 ## Contributing 
